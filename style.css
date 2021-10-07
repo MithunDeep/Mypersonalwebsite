@@ -26,8 +26,8 @@ text-align: center;
 }
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 20%;
+    height: 20%;
 }
 
 .links{
@@ -47,4 +47,37 @@ img{
 
 html{
     scroll-behavior: smooth;
+}
+
+
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+
+
+#writtings a{
+    text-shadow: none;
+    text-decoration: underline;
+    color:blue;
+    font-size: 25px;
+}
+
+#contact{
+    background: firebrick;
+}
+
+#contact iframe{
+   width: 100%;
+}
+
+.contact1 h3{
+   display: inline;
+}
+
+.contact1 a{
+    color:white;
+    text-shadow:none;
+    text-decoration: underline;
 }
